@@ -1,3 +1,5 @@
 module.exports.message = (req, res)=>{
-    res.send('<h1>POST SECTION</h1>');
+    res.render('profile',{
+        title:"Post section"
+    });
 }
